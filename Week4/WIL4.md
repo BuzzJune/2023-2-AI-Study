@@ -29,7 +29,7 @@ Bbox reg / SVMs 위치 정보 예측
 
 IOU(intersection over union) = (Area of overlap. 교집합) / (area of union. 합집합)
 IOU가 1에 가깝다 => 같은 object를 가르키고 있을 확률 높음 (>0.5: 보통. >0.7: 꽤 좋음. >0.9: 거의 완벽)
-threshold는 user가 정함.
+threshold는 user가  정함.
 
 Non-Max Suppression (NMS)
 가장 높은 score 가진 박스 선택 -> 나머지 score를 가진 박스들과 IOU 비교해서 threshold(예. 0.7) 이상의 IOU를 가진 박스들 제거 -> 반복
